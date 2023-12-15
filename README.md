@@ -1,7 +1,6 @@
-
 # **Penelope King**
-## About
-Third year data science undergraduate at University of California, San Diego.
+## About Me
+I'm Penelope King, an aspiring data scientist with a background in machine learning, programming, and collaborative teamwork. I am currently a third year data science undergraduate at University of California, San Diego and expecting to graduate in March 2025.
 
 ## Projects: 
 **Restaurant Rating Prediction / Recommender System**
