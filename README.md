@@ -1,5 +1,5 @@
 
-# Penelope King
+# **Penelope King**
 ## About
 Third year data science undergraduate at University of California, San Diego.
 
