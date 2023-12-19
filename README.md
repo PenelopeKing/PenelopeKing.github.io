@@ -1,7 +1,6 @@
 <style> .table-wrapper { overflow-x: scroll; } </style>
-# Penelope King
+<h align="center">Penelope King</h>
 <div align="center">
-  <h>Penelope King</h>
   <br>
   <a href="https://www.linkedin.com/in/penelopeking">Linkedin</a>
   •
