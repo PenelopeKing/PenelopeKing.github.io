@@ -1,8 +1,17 @@
 <style> .table-wrapper { overflow-x: scroll; } </style>
 # Penelope King
-## About Me
-I'm Penelope King, an aspiring data scientist with a background in machine learning, programming, and collaborative teamwork. I am currently a third year data science undergraduate at University of California, San Diego and expecting to graduate in March 2025.
 
+## About Me
+Hello! I'm Penelope King, an aspiring data scientist with a background in machine learning, programming, and collaborative teamwork. I am currently a third year data science undergraduate at University of California, San Diego and expecting to graduate in March 2025.
+
+<div align="center">
+  <br>
+  <a href="https://www.linkedin.com/in/penelopeking">Linkedin</a>
+  •
+  <a href="https://github.com/PenelopeKing">GitHub</a>
+  <br>
+  </div>
+  
 ## Projects: 
 **Restaurant Rating Prediction / Recommender System**
 * [Project Link](https://drive.google.com/file/d/1hPbwxCA0s6dhh3w1OPSqWd2b3721-QjR/view?usp=sharing)
