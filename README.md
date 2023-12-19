@@ -8,6 +8,7 @@
   <a href="https://github.com/PenelopeKing">GitHub</a>
   <br>
   </div>
+  
 ## About Me
 Hello! I'm Penelope King, an aspiring data scientist with a background in machine learning, programming, and collaborative teamwork. I am currently a third year data science undergraduate at University of California, San Diego and expecting to graduate in March 2025.
   
