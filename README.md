@@ -1,5 +1,6 @@
 <style> .table-wrapper { overflow-x: scroll; } </style>
-<h align="center">Penelope King</h>
+h1 {text-align: center;}
+<h1 align="center">Penelope King</h1>
 <div align="center">
   <br>
   <a href="https://www.linkedin.com/in/penelopeking">Linkedin</a>
