@@ -27,7 +27,7 @@ In this project I trialed different recommender system modeling methods for a pr
 In this group project, I explored into international traveler behavior coming into the US to analyze if the strength of the USD and the appearance of natural disasters and federal emergencies had a significant impact on tourism into the United States. In this project I took a lead role in the design, EDA, and modeling stages.
 
 **Power Outage Model**
-* [Project Link – EDA](https://garveyjli.github.io/power_outage_data_exploration/)  |  [Project Link – Model](https://penelopeking.github.io/power-outage-model/)
+* [Project Link – EDA](https://garveyjli.github.io/power_outage_data_exploration/)  •  [Project Link – Model](https://penelopeking.github.io/power-outage-model/)
 * Python project (pandas, sklearn, numpy, matplotlib)
 
 This project focuses on predicting the cause of a power outage. Sometimes power outages may occur due to unexpected reasons and the cause for it would be unclear. This project aims to build a classifier using information that is available shortly after a power outage. Aside from model testing and feature engineering, this project also consisted of EDA, looking at past research, and studying the fairness of our final model through hypothesis testing.
