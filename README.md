@@ -46,7 +46,7 @@ We tested multiple regression models to our analysis and looked into why some mo
 ### Power Outage Model
 * [Project Link – EDA](https://garveyjli.github.io/power_outage_data_exploration/){:target="_blank" rel="noopener"}  •  [Project Link – Model](https://penelopeking.github.io/power-outage-model/){:target="_blank" rel="noopener"}
 * Python project (pandas, sklearn, numpy, matplotlib)
-<iframe src="figures/chloro.html" height = 500 width = 650 frameBorder=0></iframe>
+<iframe src="figures/chloro.html" height = 500 width = 700 frameBorder=0></iframe>
 <iframe src="figures/missingness-cdfs.html" height = 500 width = 600 frameBorder=0></iframe>
 
 This project focuses on predicting the cause of a power outage. Sometimes power outages may occur due to unexpected reasons and the cause for it would be unclear. 
