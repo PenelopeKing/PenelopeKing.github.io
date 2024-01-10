@@ -35,7 +35,7 @@ In this project I trialed different recommender system modeling methods for a pr
 ### Travel Analysis
 * [Project Link](https://github.com/PenelopeKing/travel-analysis/){:target="_blank" rel="noopener"}
 * Python project (pandas, sklearn, seaborn, statsmodels, numpy)
-<iframe src="figures/eda_travel.png" height = 600 width = 500 frameBorder=0></iframe>
+<iframe src="figures/eda_travel.png" height = 500 width = 600 frameBorder=0></iframe>
 
 In this group project, I explored into international traveler behavior coming into the US to analyze if the strength of the USD and the appearance of natural disasters and federal emergencies had a significant impact on tourism into the United States. 
 
@@ -45,8 +45,8 @@ We tested multiple regression models to our analysis and looked into why some mo
 ### Power Outage Model
 * [Project Link – EDA](https://garveyjli.github.io/power_outage_data_exploration/){:target="_blank" rel="noopener"}  •  [Project Link – Model](https://penelopeking.github.io/power-outage-model/){:target="_blank" rel="noopener"}
 * Python project (pandas, sklearn, numpy, matplotlib)
-<iframe src="figures/chloro.html" height = 600 width = 500 frameBorder=0></iframe>
-<iframe src="figures/missingness-cdfs.html" height = 600 width = 500 frameBorder=0></iframe>
+<iframe src="figures/chloro.html" height = 500 width = 600 frameBorder=0></iframe>
+<iframe src="figures/missingness-cdfs.html" height = 500 width = 600 frameBorder=0></iframe>
 
 This project focuses on predicting the cause of a power outage. Sometimes power outages may occur due to unexpected reasons and the cause for it would be unclear. 
 
@@ -56,7 +56,7 @@ This project aims to build a classifier using information that is available shor
 ### Breast Cancer Tissue Classification
 * [Project Link](https://drive.google.com/file/d/1LI0R1Y18HjTU_nr6GSBPy8-FssIv5OMI/view?usp=sharing){:target="_blank" rel="noopener"}
 * Python project (pandas, statsmodels, numpy, matplotlib, seaborn)
-<iframe src="figures/f1scores_tumor.png" height = 600 width = 500 frameBorder=0></iframe>
+<iframe src="figures/f1scores_tumor.png" height = 500 width = 600 frameBorder=0></iframe>
 
 This project aimed to predict the malignancy of breast tumors using various information about the tumor’s cell nuclei’s shape and appearance using a dataset of processed tumor images. Being able to accurately predict a tumor cell’s malignancy using its nucleus would be a very important tool to help cancer patients go forward with treatment before they reach a more critical stage of cancer. 
 
