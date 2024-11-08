@@ -9,9 +9,9 @@
   </div>
   
 ## About Me
-Hello! I'm Penelope King, an aspiring data scientist. I am currently a third year data science undergraduate at University of California, San Diego and expecting to graduate in 2025.
+Hello! I'm Penelope King, a fourth year data science undergraduate at University of California, San Diego and expecting to graduate in 2025.
 
-Currently I am working at Glass Lab at UCSD School of Medicine, and am looking for future opporunities where I can extend and grow my data science skillsets.
+Currently I am taking coursework in deep learning, computer vision, and natural langauge processing.
 
 While I have more projects unrelated to data science, the projects listed here will only be comprised of my data science related projects.
   
