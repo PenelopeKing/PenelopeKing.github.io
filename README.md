@@ -21,7 +21,7 @@ While I have more projects unrelated to data science, the projects listed here w
 * [Travel Regression Modeling](#travel-analysis)
 * [Power Outage Classification](#power-outage-model)
 * [Tumor Cell Classification](#breast-cancer-tissue-classification)
-* [Data Visualization Projects)(#data-visualization-projects)
+* [Data Visualization Projects](#data-visualization-projects)
 
 ## Winning Hackathon Project for Image Anomaly Detection 
 * [Devpost Link](https://devpost.com/software/dino-nuggetology){:target="_blank" rel="noopener"}
