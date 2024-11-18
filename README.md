@@ -8,21 +8,21 @@
   <br>
   </div>
   
-## About Me
+# About Me
 Hello! I'm Penelope King, a fourth year data science undergraduate at University of California, San Diego. I will be graduating in June 2025 and I am looking for a role where I can apply my data science and machine learning skills.
 
 Currently I am taking coursework in deep learning, computer vision, and natural langauge processing. I am currently working on a project to translate English audio into Japanese text. Another project I am working on is to apply graph transformers for text summarization purposes using knowledge and reasoning graphs.
 
 While I have more projects unrelated to data science, the projects listed here will only be comprised of my data science related projects.
   
-## Projects: 
+# Projects: 
 * [Winning Hackathon Project](#winning-hackathon-project-for-image-anomaly-detection)
 * [Restaurant Recommender System](#restaurant-rating-prediction-and-recommender-system)
 * [Travel Regression Modeling](#travel-analysis)
 * [Power Outage Classification](#power-outage-model)
 * [Tumor Cell Classification](#breast-cancer-tissue-classification)
 
-### Winning Hackathon Project for Image Anomaly Detection 
+## Winning Hackathon Project for Image Anomaly Detection 
 * [Devpost Link](https://devpost.com/software/dino-nuggetology){:target="_blank" rel="noopener"}
 * Python project (Pytorch, Scikit-Image)
 
@@ -36,9 +36,9 @@ While I have more projects unrelated to data science, the projects listed here w
   allowfullscreen>
 </iframe>
 
-This project won UCSD's 2024 DataHacks hackathon, which was judged by data science professors and researchers. In this project I collaborated with two other data science students, developing an autoencoder based neural network model. Ulimately this project is an image based anomaly detection. In the project team, I acted as the project team lead, designing and directing data collection and methodoly, while also writing code to build and test the deep learning architectures.
+This project won UCSD's 2024 DataHacks hackathon, which was judged by data science professors and researchers. In this project I collaborated with two other data science students, developing an autoencoder based neural network model. Ultimately this project is an image based anomaly detection. In the project team, I acted as the project team lead, designing and directing data collection and methodoly, while also writing code to build and test the deep learning architectures.
 
-### Restaurant Rating Prediction and Recommender System
+## Restaurant Rating Prediction and Recommender System
 * [Project Link](https://drive.google.com/file/d/1hPbwxCA0s6dhh3w1OPSqWd2b3721-QjR/view?usp=sharing){:target="_blank" rel="noopener"}
 * Python project (sklearn, seaborn, numpy, matplotlib, pandas, tensorflow)
 
@@ -50,7 +50,7 @@ In this project I trialed multiple recommender system modeling methods for a pre
 Features used to train the model consisted of natural language processing (TF-IDF) to figure out what words were associated with positive or negative reviews, as well as figuring out how to deal with the sparsity of the data we were using. 
 
 
-### Travel Analysis
+## Travel Analysis
 * [Project Link](https://github.com/PenelopeKing/travel-analysis/){:target="_blank" rel="noopener"}
 * Python project (pandas, sklearn, seaborn, statsmodels, numpy)
 <iframe src="figures/eda_travel.png" height = 500 width = 600 frameBorder=0></iframe>
@@ -61,7 +61,7 @@ We tested multiple regression models to our analysis and looked into why some mo
 
 
 
-### Power Outage Model
+## Power Outage Model
 * [Project Link – EDA](https://garveyjli.github.io/power_outage_data_exploration/){:target="_blank" rel="noopener"}  •  [Project Link – Model](https://penelopeking.github.io/power-outage-model/){:target="_blank" rel="noopener"}
 * Python project (pandas, sklearn, numpy, matplotlib)
 <iframe src="figures/chloro.html" height = 500 width = 700 frameBorder=0></iframe>
@@ -72,7 +72,7 @@ This project focuses on predicting the cause of a power outages. Sometimes power
 This project consisted of building a decision tree-based classifier using information that is available shortly after a power outage. Aside from model testing and feature engineering, this project also consisted of EDA, looking at past research, and studying the fairness of our final model through hypothesis testing.
 
 
-### Breast Cancer Tissue Classification
+## Breast Cancer Tissue Classification
 * [Project Link](https://drive.google.com/file/d/1LI0R1Y18HjTU_nr6GSBPy8-FssIv5OMI/view?usp=sharing){:target="_blank" rel="noopener"}
 * Python project (pandas, statsmodels, numpy, matplotlib, seaborn)
 <iframe src="figures/f1scores_tumor.png" height = 500 width = 600 frameBorder=0></iframe>
