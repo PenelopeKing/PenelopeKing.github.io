@@ -25,8 +25,8 @@ While I have more projects unrelated to data science, the projects listed here w
 ### Winning Hackathon Project for Image Anomaly Dectection 
 * [Devpost Link](https://devpost.com/software/dino-nuggetology){:target="_blank" rel="noopener"}
 * Python project (Pytorch, Scikit-Image)
-
 [Watch the video]([https://www.youtube.com/watch?v=VIDEO_ID](https://www.youtube.com/watch?v=u6qkNwPRhec))
+
 This project won UCSD's 2024 DataHacks hackathon, which was judged by data science professors and researchers. In this project I collaborated with two other data science students, developing an autoencoder based neural network model. Ulimately this project is an image based anomaly detection. In the project team, I acted as the project team lead, designing and directing data collection and methodoly, while also writing code to build and test the deep learning architectures.
 
 ### Restaurant Rating Prediction / Recommender System
