@@ -21,6 +21,7 @@ While I have more projects unrelated to data science, the projects listed here w
 * [Travel Regression Modeling](#travel-analysis)
 * [Power Outage Classification](#power-outage-model)
 * [Tumor Cell Classification](#breast-cancer-tissue-classification)
+* [Data Visualization Projects)(#data-visualization-projects)
 
 ## Winning Hackathon Project for Image Anomaly Detection 
 * [Devpost Link](https://devpost.com/software/dino-nuggetology){:target="_blank" rel="noopener"}
@@ -80,5 +81,9 @@ This project consisted of building a decision tree-based classifier using inform
 This project aimed to predict the malignancy of breast tumors using various information about the tumor’s cell nuclei’s shape and appearance using a dataset of processed tumor images. Being able to accurately predict a tumor cell’s malignancy using its nucleus would be a very important tool to help cancer patients go forward with treatment before they reach a more critical stage of cancer. 
 
 In our project, we aimed to classify breast tumor mass cells as either malignant or benign using a logistic regression classification model based on data about the tissue’s nuclei measurements. We used k-folds cross validation for hyperparameter tuning, with stratified random sampling. In addition to studying past research, this project also consisted of EDA, feature engineering, hyperparameter selection, and model testing.
+
+## Data Visualization Projects
+ * [Dijkstra Tutorial](https://penelopeking.github.io/dijkstra-visualization/){:target="_blank" rel="noopener"}
+ * [California wildfires visualization](https://garveyjli.github.io/CAtching-fire/){:target="_blank" rel="noopener"}
 
 
