@@ -16,13 +16,13 @@ Currently I am taking coursework in deep learning, computer vision, and natural 
 While I have more projects unrelated to data science, the projects listed here will only be comprised of my data science related projects.
   
 ## Projects: 
-* [Winning Hackathon Project](#winning-hackathon-rpoject-for-image-anomaly-detection)
+* [Winning Hackathon Project](#winning-hackathon-project-for-image-anomaly-detection)
 * [Restaurant Recommender System](#restaurant-rating-prediction-recommender-system)
 * [Travel Regression Modeling](#travel-analysis)
 * [Power Outage Classification](#power-outage-model)
 * [Tumor Cell Classification](#breast-cancer-tissue-classification)
 
-### Winning Hackathon Project for Image Anomaly Dectection 
+### Winning Hackathon Project for Image Anomaly Detection 
 * [Devpost Link](https://devpost.com/software/dino-nuggetology){:target="_blank" rel="noopener"}
 * Python project (Pytorch, Scikit-Image)
 
