@@ -9,27 +9,35 @@
   </div>
   
 ## About Me
-Hello! I'm Penelope King, a fourth year data science undergraduate at University of California, San Diego and expecting to graduate in 2025.
+Hello! I'm Penelope King, a fourth year data science undergraduate at University of California, San Diego. I will be graduating in June 2025 and I am looking for a role where I can apply my data science and machine learning skills.
 
-Currently I am taking coursework in deep learning, computer vision, and natural langauge processing.
+Currently I am taking coursework in deep learning, computer vision, and natural langauge processing. I am currently working on a project to translate English audio into Japanese text. Another project I am working on is to apply graph transformers for text summarization purposes using knowledge and reasoning graphs.
 
 While I have more projects unrelated to data science, the projects listed here will only be comprised of my data science related projects.
   
 ## Projects: 
+* [Winning Hackathon Project](#winning-hackathon-rpoject-for-image-anomaly-detection)
 * [Restaurant Recommender System](#restaurant-rating-prediction-recommender-system)
 * [Travel Regression Modeling](#travel-analysis)
 * [Power Outage Classification](#power-outage-model)
 * [Tumor Cell Classification](#breast-cancer-tissue-classification)
 
+### Winning Hackathon Project for Image Anomaly Dectection 
+* [Devpost Link](https://devpost.com/software/dino-nuggetology){:target="_blank" rel="noopener"}
+* Python project (Pytorch, Scikit-Image)
+
+[Watch the video]([https://www.youtube.com/watch?v=VIDEO_ID](https://www.youtube.com/watch?v=u6qkNwPRhec))
+This project won UCSD's 2024 DataHacks hackathon, which was judged by data science professors and researchers. In this project I collaborated with two other data science students, developing an autoencoder based neural network model. Ulimately this project is an image based anomaly detection. In the project team, I acted as the project team lead, designing and directing data collection and methodoly, while also writing code to build and test the deep learning architectures.
 
 ### Restaurant Rating Prediction / Recommender System
 * [Project Link](https://drive.google.com/file/d/1hPbwxCA0s6dhh3w1OPSqWd2b3721-QjR/view?usp=sharing){:target="_blank" rel="noopener"}
 * Python project (sklearn, seaborn, numpy, matplotlib, pandas, tensorflow)
 ![Alt text](figures/f1_scores_restaurant.png?raw=true "Model Performance Using F-1 Score")
 ![Alt text](figures/tfidf_restaurant.png?raw=true "Comparing most relevant words by restaurant rating")
-![Alt text](figures/eda_restaurant.png?raw=true "EDA")
 
-In this project I trialed different recommender system modeling methods for a prediction problem using a Google resturant review dataset. Some of the methods involved techniques such as utilizing latent factors, while others involved no latent factors. In addition to testing multiple machine learning models, I also performed exploratory data analysis on the dataset, feature engineering, and explored past literature.
+In this project I trialed multiple recommender system modeling methods for a prediction problem using a Google resturant review dataset. Some of the methods involved techniques such as utilizing latent factors, while others involved no latent factors. In addition to testing multiple machine learning models, I also performed exploratory data analysis on the dataset, feature engineering, and explored past literature. 
+
+Features used to train the model consisted of natural language processing (TF-IDF) to figure out what words were associated with positive or negative reviews, as well as figuring out how to deal with the sparsity of the data we were using. 
 
 
 ### Travel Analysis
@@ -37,9 +45,9 @@ In this project I trialed different recommender system modeling methods for a pr
 * Python project (pandas, sklearn, seaborn, statsmodels, numpy)
 <iframe src="figures/eda_travel.png" height = 500 width = 600 frameBorder=0></iframe>
 
-In this group project, I explored into international traveler behavior coming into the US to analyze if the strength of the USD and the appearance of natural disasters and federal emergencies had a significant impact on tourism into the United States. 
+In this group project, I explored into international traveler behavior coming into the US to analyze if the strength of the USD and the appearance of natural disasters and federal emergencies had a significant impact on tourism into the United States.
 
-We tested multiple regression models to our analysis and looked into why some models may have performed better than others in the context of our data. In this project I took a lead role in the design, EDA, and modeling stages. 
+We tested multiple regression models to our analysis and looked into why some models may have performed better than others in the context of our data. In this project, I took a lead role in outlining key deadlines, assigning work, and the project design. I also wrote code for exploratory data analysis (EDA) and training and trialing the models.
 
 
 
@@ -49,9 +57,9 @@ We tested multiple regression models to our analysis and looked into why some mo
 <iframe src="figures/chloro.html" height = 500 width = 700 frameBorder=0></iframe>
 <iframe src="figures/missingness-cdfs.html" height = 500 width = 600 frameBorder=0></iframe>
 
-This project focuses on predicting the cause of a power outage. Sometimes power outages may occur due to unexpected reasons and the cause for it would be unclear. 
+This project focuses on predicting the cause of a power outages. Sometimes power outages may occur due to unexpected reasons and the cause for it would be unclear. 
 
-This project aims to build a classifier using information that is available shortly after a power outage. Aside from model testing and feature engineering, this project also consisted of EDA, looking at past research, and studying the fairness of our final model through hypothesis testing.
+This project consisted of building a decision tree-based classifier using information that is available shortly after a power outage. Aside from model testing and feature engineering, this project also consisted of EDA, looking at past research, and studying the fairness of our final model through hypothesis testing.
 
 
 ### Breast Cancer Tissue Classification
