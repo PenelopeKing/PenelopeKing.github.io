@@ -16,12 +16,19 @@ Currently I am taking coursework in deep learning, computer vision, and natural 
 While I have more projects unrelated to data science, the projects listed here will only be comprised of my data science related projects.
   
 # Projects: 
+* [Comparing Graph Neural Networks Against Transformer Based Graph Learning](#comparing-graph-neural-networks-against-transformer-based-graph-learning)
 * [Winning Hackathon Project](#winning-hackathon-project-for-image-anomaly-detection)
 * [Restaurant Recommender System](#restaurant-rating-prediction-and-recommender-system)
 * [Travel Regression Modeling](#travel-analysis)
 * [Power Outage Classification](#power-outage-model)
 * [Tumor Cell Classification](#breast-cancer-tissue-classification)
 * [Data Visualization Projects](#data-visualization-projects)
+
+## Comparing Graph Neural Networks Against Transformer Based Graph Learning
+* [Repo Link](https://github.com/PenelopeKing/graph-learning-model-benchmarking){:target="_blank" rel="noopener"}
+* [Paper Link](https://drive.google.com/file/d/1tk5ZDKl9fCXoj5ItmffMOLiCzFO8uxzG/view?usp=sharing){:target="_blank" rel="noopener"}
+* Python project (Pytorch, Pytorch Geometric)
+
 
 ## Winning Hackathon Project for Image Anomaly Detection 
 * [Devpost Link](https://devpost.com/software/dino-nuggetology){:target="_blank" rel="noopener"}
