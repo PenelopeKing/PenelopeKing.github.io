@@ -30,7 +30,7 @@ This project explores the use of transformer-based graph learning models, specif
 
 ## English-to-Japanese Translation Deep Learning Model
 * [Repo Link](https://github.com/PenelopeKing/translation-project){:target="_blank" rel="noopener"}
-* [Paper Link](https://drive.google.com/file/d/1dnhZI4gRV_cFv4He9Lk6sHGCDm5o3rId/view?usp=sharing{:target="_blank" rel="noopener"}
+* [Paper Link](https://drive.google.com/file/d/1dnhZI4gRV_cFv4He9Lk6sHGCDm5o3rId/view?usp=sharing){:target="_blank" rel="noopener"}
 * Python project (Pytorch, Pandas)
 This project explores and compares the performance of four Seq2Seq architectures—CNNs, GRUs, LSTMs, and Transformers—on an English-to-Japanese translation task using the Japanese-English Subtitle Corpus (JESC). The models were evaluated based on their translation accuracy, with CNNs outperforming the others due to their ability to converge faster and effectively capture local connections in short sequences. The study highlights CNNs' suitability for handling Japanese's shorter sentence structures and suggests future directions, including testing on longer documents and other language pairs. The code for this project is available on GitHub.
 
