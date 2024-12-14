@@ -28,7 +28,7 @@ While I have more projects unrelated to data science, the projects listed here w
 * [Repo Link](https://github.com/PenelopeKing/graph-learning-model-benchmarking){:target="_blank" rel="noopener"}
 * [Paper Link](https://drive.google.com/file/d/1tk5ZDKl9fCXoj5ItmffMOLiCzFO8uxzG/view?usp=sharing){:target="_blank" rel="noopener"}
 * Python project (Pytorch, Pytorch Geometric)
-
+This project explores the use of transformer-based graph learning models, specifically GraphGPS, and benchmarks their performance against state-of-the-art graph neural networks (GNNs) such as GCN, GIN, and GAT across diverse datasets like CORA, IMDB-BINARY, ENZYME, and PEPTIDES-FUNC. The study highlights the strengths and limitations of these architectures, focusing on their ability to capture local and global dependencies. While simpler GNNs excel in less complex tasks, GraphGPS demonstrates its advantage in handling long-range interactions, particularly in datasets requiring such dependencies, offering insights into advancing graph-based machine learning applications.
 
 ## Winning Hackathon Project for Image Anomaly Detection 
 * [Devpost Link](https://devpost.com/software/dino-nuggetology){:target="_blank" rel="noopener"}
