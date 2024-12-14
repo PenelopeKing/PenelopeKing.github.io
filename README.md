@@ -28,6 +28,12 @@ While I have more projects unrelated to data science, the projects listed here w
 * Python project (Pytorch, Pytorch Geometric)
 This project explores the use of transformer-based graph learning models, specifically GraphGPS, and benchmarks their performance against state-of-the-art graph neural networks (GNNs) such as GCN, GIN, and GAT across diverse datasets like CORA, IMDB-BINARY, ENZYME, and PEPTIDES-FUNC. The study highlights the strengths and limitations of these architectures, focusing on their ability to capture local and global dependencies. While simpler GNNs excel in less complex tasks, GraphGPS demonstrates its advantage in handling long-range interactions, particularly in datasets requiring such dependencies, offering insights into advancing graph-based machine learning applications.
 
+## English-to-Japanese Translation Deep Learning Model
+* [Repo Link](https://github.com/PenelopeKing/translation-project){:target="_blank" rel="noopener"}
+* [Paper Link](https://drive.google.com/file/d/1dnhZI4gRV_cFv4He9Lk6sHGCDm5o3rId/view?usp=sharing{:target="_blank" rel="noopener"}
+* Python project (Pytorch, Pandas)
+This project explores and compares the performance of four Seq2Seq architectures—CNNs, GRUs, LSTMs, and Transformers—on an English-to-Japanese translation task using the Japanese-English Subtitle Corpus (JESC). The models were evaluated based on their translation accuracy, with CNNs outperforming the others due to their ability to converge faster and effectively capture local connections in short sequences. The study highlights CNNs' suitability for handling Japanese's shorter sentence structures and suggests future directions, including testing on longer documents and other language pairs. The code for this project is available on GitHub.
+
 ## Winning Hackathon Project for Image Anomaly Detection 
 * [Devpost Link](https://devpost.com/software/dino-nuggetology){:target="_blank" rel="noopener"}
 * Python project (Pytorch, Scikit-Image)
