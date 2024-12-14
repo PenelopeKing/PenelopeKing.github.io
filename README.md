@@ -11,8 +11,6 @@
 # About Me
 Hello! I'm Penelope King, a fourth year data science undergraduate at University of California, San Diego. I will be graduating in June 2025 and I am looking for a role where I can apply my data science and machine learning skills.
 
-Currently I am taking coursework in deep learning, computer vision, and natural langauge processing. I am currently working on a project to translate English audio into Japanese text. Another project I am working on is to apply graph transformers for text summarization purposes using knowledge and reasoning graphs.
-
 While I have more projects unrelated to data science, the projects listed here will only be comprised of my data science related projects.
   
 # Projects: 
