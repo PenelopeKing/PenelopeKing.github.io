@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penny King</title>
+    <link rel="stylesheet" href="../style.css" />
+    <script src='../script.js'></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" type="image/x-icon" href="../assets/icons/penny.png">
+</head>
+<body>
+    <!-- Top Header with Navigation -->
+    <section class='top-header'>
+        <a class='name' style='color: var(--my-purple);' href="../index.html">Penny King</a>
+        <section class='wide-sections'>
+            <a class='section-text' style='right: 150px' href='../subpages/projects.html'>projects</a>
+            <a class='section-text' style='right: 50px' href='../subpages/contact.html'>contact</a>
+        </section>
+        <button class='hamburger-menu' onclick='expand_menu()'>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </section>
+    <div id="myNav" class="overlay">
+        <a class="closebtn" onclick="close_menu()">&times;</a>
+        <div class="overlay-content">
+            <a href="../subpages/projects.html">projects</a>
+            <a href="../subpages/contact.html">contact</a>
+        </div>
+    </div>
+
+    <section class = "hp-subsections" id = "aboutme">
+
+        <div class = "container"><!--data-aos = "fade-up" data-aos-duration = "1000">-->
+            <div class = "left-text-container">
+                <h1 class = 'text-container-title'>Contact Me</h1>
+                <h1 class = 'title-text'> Find my resume <a href = 'sections/projects.html' style = "color: var(--my-purple);">here</a>.</h1>
+                <h1 class = 'title-text'> You can find my accounts across other platforms here:</h1>
+                <div class = 'logo-container'>
+                    <a href = 'https://www.linkedin.com/in/penelopeking/' target = '_blank'><img class = 'logos' src = '../assets/linkedin-logo.svg'></a>
+                    <a href = 'https://github.com/PenelopeKing' target = '_blank'><img class = 'logos' src = '../assets/github-logo.svg'></a>                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    
+    <!-- Horizontal Line Separator -->
+    <hr class="bottom"/>
+
+    <!-- AOS (Animate On Scroll) Initialization -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

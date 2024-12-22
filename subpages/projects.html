@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penny King</title>
+    <link rel="stylesheet" href="../style.css" />
+    <script src='../script.js'></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" type="image/x-icon" href="../assets/icons/penny.png">
+</head>
+<body>
+    <!-- Top Header with Navigation -->
+    <section class='top-header'>
+        <a class='name' style='color: var(--my-purple);' href="../index.html">Penny King</a>
+        <section class='wide-sections'>
+            <a class='section-text' style='right: 150px' href='../subpages/projects.html'>projects</a>
+            <a class='section-text' style='right: 50px' href='../subpages/contact.html'>contact</a>
+        </section>
+        <button class='hamburger-menu' onclick='expand_menu()'>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </section>
+    <div id="myNav" class="overlay">
+        <a class="closebtn" onclick="close_menu()">&times;</a>
+        <div class="overlay-content">
+            <a href="../subpages/projects.html">projects</a>
+            <a href="../subpages/contact.html">contact</a>
+        </div>
+    </div>
+
+
+    <!-- Converted README Projects -->
+
+    <!-- Project 1: Comparing Graph Neural Networks Against Transformer Based Graph Learning -->
+    <section class="hp-subsections">
+        <div class="container">
+            <div class = "img-container">
+                <a><img id = 'intro-image' src="../assets/gnn.png"></a>
+            </div>
+
+
+            <div class="right-text-container">
+                <h2 class='proj-title'>Comparing Graph Neural Networks Against Transformer Based Graph Learning</h2>
+                <ul>
+                    <li><a href="https://github.com/PenelopeKing/graph-learning-model-benchmarking" target="_blank" rel="noopener">Repo Link</a></li>
+                    <li><a href="https://drive.google.com/file/d/1tk5ZDKl9fCXoj5ItmffMOLiCzFO8uxzG/view?usp=sharing" target="_blank" rel="noopener">Paper Link</a></li>
+                    <li>Python project (Pytorch, Pytorch Geometric)</li>
+                </ul>
+                <h1 class='title-text2'>
+                    This project explores the use of transformer-based graph learning models, specifically GraphGPS, and benchmarks their performance against state-of-the-art graph neural networks (GNNs) such as GCN, GIN, and GAT across diverse datasets like CORA, IMDB-BINARY, ENZYME, and PEPTIDES-FUNC. The study highlights the strengths and limitations of these architectures, focusing on their ability to capture local and global dependencies. While simpler GNNs excel in less complex tasks, GraphGPS demonstrates its advantage in handling long-range interactions, particularly in datasets requiring such dependencies, offering insights into advancing graph-based machine learning applications.
+                </h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project 2: English-to-Japanese Translation Deep Learning Model -->
+    <section class="hp-subsections">
+        <div class="container">
+            <div class="left-text-container">
+                <h2 class='proj-title'>English-to-Japanese Translation Deep Learning Model</h2>
+                <ul>
+                    <li><a href="https://github.com/PenelopeKing/translation-project" target="_blank" rel="noopener">Repo Link</a></li>
+                    <li><a href="https://drive.google.com/file/d/1dnhZI4gRV_cFv4He9Lk6sHGCDm5o3rId/view?usp=sharing" target="_blank" rel="noopener">Paper Link</a></li>
+                    <li>Python project (Pytorch, Pandas)</li>
+                </ul>
+                <h1 class='title-text2'>
+                    This project explores and compares the performance of four Seq2Seq architectures—CNNs, GRUs, LSTMs, and Transformers—on an English-to-Japanese translation task using the Japanese-English Subtitle Corpus (JESC). The models were evaluated based on their translation accuracy, with CNNs outperforming the others due to their ability to converge faster and effectively capture local connections in short sequences. The study highlights CNNs' suitability for handling Japanese's shorter sentence structures and suggests future directions, including testing on longer documents and other language pairs. The code for this project is available on GitHub.
+                </h1>
+            </div>
+            <div class = "img-container">
+                <a ><img id = 'intro-image' src="../assets/seq2seq.png"></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Project 3: Winning Hackathon Project for Image Anomaly Detection -->
+    <section class="hp-subsections">
+        <div class="container">
+            <div class = "img-container">
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/u6qkNwPRhec" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+
+            </div>
+
+
+            <div class="right-text-container">
+                <h2 class='proj-title'>Winning Hackathon Project for Image Anomaly Detection</h2>
+                <ul>
+                    <li><a href="https://devpost.com/software/dino-nuggetology" target="_blank" rel="noopener">Devpost Link</a></li>
+                    <li>Python project (Pytorch, Scikit-Image)</li>
+                </ul>
+                
+                <h1 class='title-text2'>
+                    This project won UCSD's 2024 DataHacks hackathon, which was judged by data science professors and researchers. In this project I collaborated with two other data science students, developing an autoencoder based neural network model. Ultimately this project is an image based anomaly detection. In the project team, I acted as the project team lead, designing and directing data collection and methodology, while also writing code to build and test the deep learning architectures.
+                </h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project 4: Restaurant Rating Prediction and Recommender System -->
+    <section class="hp-subsections">
+        <div class="container">
+            <div class="left-text-container">
+                <h2 class='proj-title'>Restaurant Rating Prediction and Recommender System</h2>
+                <ul>
+                    <li><a href="https://drive.google.com/file/d/1hPbwxCA0s6dhh3w1OPSqWd2b3721-QjR/view?usp=sharing" target="_blank" rel="noopener">Project Link</a></li>
+                    <li>Python project (sklearn, seaborn, numpy, matplotlib, pandas, tensorflow)</li>
+                </ul>
+                
+                <h1 class='title-text2'>
+                    In this project I trialed multiple recommender system modeling methods for a prediction problem using a Google restaurant review dataset. Some of the methods involved techniques such as utilizing latent factors, while others involved no latent factors. In addition to testing multiple machine learning models, I also performed exploratory data analysis on the dataset, feature engineering, and explored past literature.
+                </h1>
+                <h1 class='title-text2'>
+                    Features used to train the model consisted of natural language processing (TF-IDF) to figure out what words were associated with positive or negative reviews, as well as figuring out how to deal with the sparsity of the data we were using.
+                </h1>
+            </div>
+            <div class = "img-container">
+
+                <a ><img id = 'intro-image' src="../figures/tfidf_restaurant.png"></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Project 5: Travel Analysis -->
+    <section class="hp-subsections">
+        <div class="container">
+            <div class = "img-container">
+                <a>              
+                     <iframe src="../figures/eda_travel.png" height="500" width="600" frameborder="0" title="Travel Analysis EDA"></iframe>
+                </a>
+            </div>
+
+            <div class="right-text-container">
+                <h2 class='proj-title'>Travel Analysis</h2>
+                <ul>
+                    <li><a href="https://github.com/PenelopeKing/travel-analysis/" target="_blank" rel="noopener">Project Link</a></li>
+                    <li>Python project (pandas, sklearn, seaborn, statsmodels, numpy)</li>
+                </ul>
+                <h1 class='title-text2'>
+                    In this group project, I explored international traveler behavior coming into the US to analyze if the strength of the USD and the appearance of natural disasters and federal emergencies had a significant impact on tourism into the United States.
+                </h1>
+                <h1 class='title-text2'>
+                    We tested multiple regression models in our analysis and looked into why some models may have performed better than others in the context of our data. In this project, I took a lead role in outlining key deadlines, assigning work, and the project design. I also wrote code for exploratory data analysis (EDA) and training and trialing the models.
+                </h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project 6: Power Outage Model -->
+    <section class="hp-subsections">
+        <div class="container">
+            <div class="left-text-container">
+                <h2 class='proj-title'>Power Outage Model</h2>
+                <ul>
+                    <li>
+                        <a href="https://garveyjli.github.io/power_outage_data_exploration/" target="_blank" rel="noopener">Project Link – EDA</a></li>
+                        <li><a href="https://penelopeking.github.io/power-outage-model/" target="_blank" rel="noopener">Project Link – Model</a>
+                    </li>
+
+                    <li>Python project (pandas, sklearn, numpy, matplotlib)</li>
+                </ul>
+                <h1 class='title-text2'>
+                    This project focuses on predicting the cause of power outages. Sometimes power outages may occur due to unexpected reasons and the cause for it would be unclear.
+                </h1>
+                <h1 class='title-text2'>
+                    This project consisted of building a decision tree-based classifier using information that is available shortly after a power outage. Aside from model testing and feature engineering, this project also consisted of EDA, looking at past research, and studying the fairness of our final model through hypothesis testing.
+                </h1>
+            </div>
+            <div class = "img-container">
+                <a >
+                    <iframe src="../figures/missingness-cdfs.html" height="500" width="600" frameborder="0" title="Missingness CDFs"></iframe>
+
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project 7: Breast Cancer Tissue Classification -->
+    <section class="hp-subsections">
+        <div class="container">
+            <div class = "img-container">
+                <a>                <iframe src="../figures/f1scores_tumor.png" height="500" width="600" frameborder="0" title="F1 Scores Tumor"></iframe>
+                </a>
+            </div>
+
+            <div class="right-text-container">
+                <h2 class='proj-title'>Breast Cancer Tissue Classification</h2>
+                <ul>
+                    <li><a href="https://drive.google.com/file/d/1LI0R1Y18HjTU_nr6GSBPy8-FssIv5OMI/view?usp=sharing" target="_blank" rel="noopener">Project Link</a></li>
+                    <li>Python project (pandas, statsmodels, numpy, matplotlib, seaborn)</li>
+                </ul>
+                <h1 class='title-text2'>
+                    This project aimed to predict the malignancy of breast tumors using various information about the tumor’s cell nuclei’s shape and appearance using a dataset of processed tumor images. Being able to accurately predict a tumor cell’s malignancy using its nucleus would be a very important tool to help cancer patients go forward with treatment before they reach a more critical stage of cancer.
+                </h1>
+                <h1 class='title-text2'>
+                    In our project, we aimed to classify breast tumor mass cells as either malignant or benign using a logistic regression classification model based on data about the tissue’s nuclei measurements. We used k-folds cross-validation for hyperparameter tuning, with stratified random sampling. In addition to studying past research, this project also consisted of EDA, feature engineering, hyperparameter selection, and model testing.
+                </h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project 8: Data Visualization Projects -->
+    <section class="hp-subsections">
+        <div class="container">
+            <div class="left-text-container">
+                <h2 class='proj-title'>Data Visualization Projects</h2>
+                <ul>
+                    <li><a href="https://penelopeking.github.io/dijkstra-visualization/" target="_blank" rel="noopener">Dijkstra Tutorial</a></li>
+                    <li><a href="https://garveyjli.github.io/CAtching-fire/" target="_blank" rel="noopener">California Wildfires Visualization</a></li>
+                </ul>
+            </div>
+            <div class = "img-container">
+                <a><img id = 'intro-image' src="../assets/fire.png"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Horizontal Line Separator -->
+    <hr class="bottom"/>
+
+    <!-- AOS (Animate On Scroll) Initialization -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

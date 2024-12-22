@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penny King</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src = 'script.js'></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/icons/penny.png">
+</head>
+<body>
+    <section class = 'top-header'>
+        <a class = 'name'  style= 'color: var(--my-purple);' href = "index.html">Penny King</h1>
+        <section class = 'wide-sections'>
+            <a class = 'section-text' style = 'right: 150px' href = 'subpages/projects.html'>projects</a>
+            <a class = 'section-text' style = 'right: 50px' href = 'subpages/contact.html'>contact</a>
+        </section>
+        <button class = 'hamburger-menu' onclick = 'expand_menu()'>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </section>
+    <div id="myNav" class="overlay">
+        <a class="closebtn" onclick="close_menu()">&times;</a>
+        <div class="overlay-content">
+            <a href="subpages/projects.html">projects</a>
+            <a href="subpages/contact.html">contact</a>
+        </div>
+    </div>
+
+    <section class = "intro">
+        <div class = "container" >
+            <div class = "left-text-container">
+                <h1 class = 'title-text'>
+                    <span> Hello! I'm Penelope (Penny) King. I am a data scientist studying at University of California, San Diego (UCSD). I am glad you could stop by!</span>
+                    
+                    <span> When I am not delving deep into data and training ML models, I enjoy spending time in the kitchen and sharing my latest culinary creations with friends and family. You can also find me immersed in a good book, especially if it's a classical epic or a historical fiction novel. 
+                    </span>
+
+                    </h1>
+            </div>
+            <div class = "img-container">
+                <img id = 'intro-image' src="assets/IMG_10432.JPG">
+            </div>
+        </div>
+    </section>
+
+
+    <section class = "hp-subsections" id = "projects">
+        <div class = "container" >
+            <div class = "img-container">
+                <a href = "sections/projects.html"><img id = 'intro-image' src="assets/IMG_2425_Original.JPG"></a>
+            </div>
+            <div class = "right-text-container">
+                <a href = "sections/projects.html" style = "color: var(--my-purple);"><h1 class = 'text-container-title' >PROJECTS</h1></a>
+                <h1 class = 'title-text'>I've worked on a wide variety of different data science projects: ranging from machine learning, statistical analysis, data visualization and more. Learn more about my projects <a href = 'sections/projects.html' style = "color: var(--my-purple);">here</a>.</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class = "hp-subsections" id = "contact">
+        <div class = "container" >
+            
+            <div class = "left-text-container">
+                <a href = "sections/contact.html" style = "color: var(--my-purple);"><h1 class = 'text-container-title'>CONTACT</h1></a>
+                <h1 class = 'title-text'>You can find my contact information <a href = 'sections/projects.html' style = "color: var(--my-purple);">here</a>.</h1>
+            </div>
+
+            <div class = "img-container">
+                <a href = "sections/aboutme.html"><img id = 'intro-image' src="assets/BBA817ED-0958-4652-BC71-B404DB9D3A24.jpg"></a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <hr class = "bottom"/>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
